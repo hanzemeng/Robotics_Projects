@@ -58,6 +58,6 @@ int main()
 	}
 
 	gameBoard.viewAll();
-	std::cout << (gameBoard.getVictory() == 1 ? "Blue" : "Red") << "wins!" << std::endl;
-	return 1;
+	std::cout << (gameBoard.getVictory() == 1 ? "Blue" : "Red") << " wins!" << std::endl;
+	return 0;
 }

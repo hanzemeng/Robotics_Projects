@@ -154,7 +154,7 @@ int main()
         players[i] = new Knight(size, playerY, playerX);
         if(!players[i]->check())
         {
-            free(players[i]);
+            delete players[i];
             i--;
             continue;
         }
